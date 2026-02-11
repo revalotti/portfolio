@@ -1,6 +1,6 @@
 
 <!doctype html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -9,16 +9,27 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
+  <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
 
 <header class="nav">
   <div class="container">
-    <nav aria-label="Main">
+    <a href="index.html" class="logo" aria-label="Ir a inicio"><img src="revalotti-logo.svg" alt="" /></a>
+    <div class="lang-float-wrap">
+      <div class="lang-switch" aria-label="Seleccionar idioma">
+      <button type="button" class="lang-switch__btn is-active" data-lang="es" aria-pressed="true">ES</button>
+      <button type="button" class="lang-switch__btn" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+    </div>
+    <button class="nav-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="main-nav">
+      <i data-lucide="menu"></i>
+    </button>
+    <nav id="main-nav" aria-label="Main">
       <ul>
-        <li><a class="" href="index.html">Home</a></li>
-        <li><a class="active" href="about.html">About</a></li>
-        <li><a class="" href="contact.html">Contact</a></li>
+        <li><a class="" href="index.html" data-i18n-key="nav.home">Inicio</a></li>
+        <li><a class="active" href="about.html" data-i18n-key="nav.about">Sobre mí</a></li>
+        <li><a class="" href="contact.html" data-i18n-key="nav.contact">Contacto</a></li>
       </ul>
     </nav>
   </div>
@@ -26,16 +37,15 @@
 
 <main class="page">
   <div class="container">
-    <h1>Hello! <span class="emoji">👋</span></h1>
-    <p class="subtitle">My name is Revaliente.<br/>I am a motion designer and director from Spain.</p>
-
     <div class="about-layout">
       <div class="about-photo" aria-label="Profile photo">
-        <!-- Replace the placeholder with your image:
-             <img src="assets/profile.jpg" alt="Revaliente portrait" /> -->
+        <img src="assets/profile.jpg" alt="Retrato de Carlos Revaliente" />
       </div>
 
       <div>
+        <h1>Hello! <span class="emoji">👋</span></h1>
+        <p class="subtitle">My name is Carlos Revaliente.<br/>I am a motion designer and director from Spain.</p>
+
         <div class="paragraph">
           <p>
             Born in a small town in southern Spain, I spent my childhood building Lego spaceships and
