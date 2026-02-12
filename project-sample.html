@@ -1,6 +1,5 @@
-
 <!doctype html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -9,27 +8,16 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
-  <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
 
 <header class="nav">
   <div class="container">
-    <a href="index.html" class="logo" aria-label="Ir a inicio"><img src="revalotti-logo.svg" alt="" /></a>
-    <div class="lang-float-wrap">
-      <div class="lang-switch" aria-label="Seleccionar idioma">
-        <button type="button" class="lang-switch__btn is-active" data-lang="es" aria-pressed="true">ES</button>
-        <button type="button" class="lang-switch__btn" data-lang="en" aria-pressed="false">EN</button>
-      </div>
-    </div>
-    <button class="nav-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="main-nav">
-      <i data-lucide="menu"></i>
-    </button>
-    <nav id="main-nav" aria-label="Main">
+    <nav aria-label="Main">
       <ul>
-        <li><a class="" href="index.html" data-i18n-key="nav.home">Inicio</a></li>
-        <li><a class="" href="about.html" data-i18n-key="nav.about">Sobre mí</a></li>
-        <li><a class="" href="contact.html" data-i18n-key="nav.contact">Contacto</a></li>
+        <li><a class="" href="index.html">Home</a></li>
+        <li><a class="" href="about.html">About</a></li>
+        <li><a class="" href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </div>
@@ -38,31 +26,28 @@
 <main>
   <section class="project-hero">
     <div class="container">
-      <h1 data-i18n-key="projectSample.title">Project Title</h1>
-      <p class="kicker" data-i18n-key="projectSample.kicker">Short description of the project</p>
+      <h1>Project Title</h1>
+      <p class="kicker">Short description of the project</p>
 
       <div class="intro">
-        <p class="paragraph" data-i18n-key="projectSample.intro1">
-          Replace this text with your project introduction. Keep it concise and distributed across three columns on desktop.
+        <p class="paragraph">
+          Replace this text with your project introduction. Keep it concise and split into two columns on desktop,
+          like in the reference.
         </p>
-        <p class="paragraph" data-i18n-key="projectSample.intro2">
-          Add the project context, role, and outcomes in the second column.
-        </p>
-        <p class="paragraph" data-i18n-key="projectSample.intro3">
-          This template is intentionally minimal so you can drop in real media in the third column or extend the copy.
+        <p class="paragraph">
+          Add the project context, role, and outcomes. This template is intentionally minimal so you can drop in
+          real media.
         </p>
       </div>
 
       <div class="media">
-        <div class="video">
-          <div class="thumb blue" aria-hidden="true"></div>
-        </div>
+        <div class="video">Hero media (video / image)</div>
       </div>
 
       <div class="project-grid">
-        <div><div class="shot"><div class="thumb coral"></div></div><div class="caption" data-i18n-key="projectSample.caption">Caption</div></div>
-        <div><div class="shot"><div class="thumb teal"></div></div><div class="caption" data-i18n-key="projectSample.caption">Caption</div></div>
-        <div><div class="shot"><div class="thumb green"></div></div><div class="caption" data-i18n-key="projectSample.caption">Caption</div></div>
+        <div><div class="shot"></div><div class="caption">Caption</div></div>
+        <div><div class="shot"></div><div class="caption">Caption</div></div>
+        <div><div class="shot"></div><div class="caption">Caption</div></div>
       </div>
     </div>
   </section>
