@@ -40,8 +40,8 @@
       'portfolio.darkJelly.subtitle': 'Frame híbrido 3D + 2D',
       'portfolio.playButton.subtitle': 'Referencia de identidad en motion',
       'portfolio.deskCharacter.subtitle': 'Ilustración de escena',
-      'cta.title': 'Llevemos tus ideas a la vida.',
-      'cta.button': 'CONTACTO',
+      'cta.title': 'Llevemos tus ideas a la acción.',
+      'cta.button': 'Contacto',
       'projectNotion.title': 'Notion AI Assistant',
       'projectNotion.kicker': 'Caracterización y animación del nuevo asistente de IA de Notion',
       'projectNotion.intro1': 'Formé parte del equipo de Buck que desarrolló las animaciones del nuevo asistente de IA de Notion. El objetivo era dar a este compañero digital una personalidad clara manteniéndolo versátil en distintos contextos.',
@@ -58,11 +58,35 @@
       'projectSample.heroMedia': 'Medio principal (vídeo / imagen)',
       'projectSample.caption': 'Pie de foto',
       'about.title': '¡Hola!',
-      'about.lead': 'Mi nombre es Carlos Revaliente. Soy un motion designer español.',
-      'about.p1': 'Nací en un pueblo del sur de España y pasé la infancia construyendo naves espaciales de Lego y soñando con desenterrar dinosaurios. La vida me llevó por otro camino: después de licenciarme en Comunicación Audiovisual, empecé mi carrera como motion designer freelance.',
-      'about.p2': 'Con los años he ido evolucionando hacia un perfil versátil en motion, a medio camino entre el storytelling y el diseño.',
-      'about.p3': 'Mi trabajo abarca desde animación narrativa, donde el motion es un medio de comunicación potente, hasta la integración de elementos dinámicos en sistemas de branding y diseño de producto.',
-      'about.p4': 'Este camino me ha llevado a colaborar con equipos de diseño y departamentos de producto, ayudando a convertir identidades estáticas en experiencias vivas que conecten con los usuarios.',
+      'about.lead': 'Mi nombre es Carlos Revaliente, diseñador digital nacido en España.',
+      'about.p1': 'Empecé en el mundo del motion design, pero con los años he evolucionado hacia un perfil más estratégico, combinando diseño de producto, sistemas de diseño y comunicación visual.',
+      'about.p2': 'Trabajo en la intersección entre narrativa y funcionalidad: desde piezas audiovisuales que explican y posicionan marcas, hasta la integración de motion y consistencia visual en productos digitales.',
+      'about.p3': 'Colaboro con equipos de diseño y desarrollo para transformar ideas en experiencias claras, coherentes y con impacto.',
+      'about.floatCta': 'Conóceme',
+      'about.cvButton': 'Ver CV',
+      'about.timeline.title': 'Trayectoria',
+      'about.timeline.present': 'presente',
+      'about.timeline.item1.title': 'Motion Designer Freelance',
+      'about.timeline.item1.desc': 'Branding, storytelling y diseño de producto para distintas marcas y estudios.',
+      'about.timeline.item2.title': 'Animador / Motion Designer',
+      'about.timeline.item2.desc': 'Animación narrativa y contenido para redes y campañas.',
+      'about.timeline.item3.title': 'Comunicación Audiovisual',
+      'about.timeline.item3.desc': 'Licenciatura y primeros proyectos en motion y postproducción.',
+      'about.timeline.item4.title': 'Formación en diseño y animación',
+      'about.timeline.item4.desc': 'Estudios y prácticas en diseño gráfico y After Effects.',
+      'cv.title': 'Currículum',
+      'cv.sectionPersonal': 'Datos personales',
+      'cv.personal': 'Carlos Revaliente · Motion Designer · España',
+      'cv.sectionExperience': 'Experiencia',
+      'cv.exp1': '2022 – presente · Motion Designer Freelance. Branding, storytelling y diseño de producto para marcas y estudios.',
+      'cv.exp2': '2020 – 2022 · Animador / Motion Designer. Animación narrativa y contenido para redes y campañas.',
+      'cv.exp3': '2018 – 2020 · Comunicación Audiovisual. Licenciatura y primeros proyectos en motion y postproducción.',
+      'cv.sectionEducation': 'Formación',
+      'cv.education': 'Licenciatura en Comunicación Audiovisual. Formación en diseño gráfico y animación (After Effects).',
+      'cv.sectionSkills': 'Herramientas y habilidades',
+      'cv.skills': 'After Effects, Cinema 4D, Illustrator, Photoshop, Figma. Animación 2D/3D, storytelling, branding en motion, diseño de producto.',
+      'cv.sectionLanguages': 'Idiomas',
+      'cv.languages': 'Español (nativo), Inglés (fluido).',
       'contact.intro': 'Por si necesitas un presupuesto o simplemente quieres saludar.',
       'contact.labelName': 'Nombre',
       'contact.labelEmail': 'Email',
@@ -118,11 +142,35 @@
       'projectSample.heroMedia': 'Hero media (video / image)',
       'projectSample.caption': 'Caption',
       'about.title': 'Hello!',
-      'about.lead': "My name is Carlos Revaliente. I'm a Spanish motion designer.",
-      'about.p1': 'Born in a small town in southern Spain, I spent my childhood building Lego spaceships and dreaming of unearthing dinosaurs. Life charted a different course: after graduating with a degree in Audio–Visual Communications, I launched my career as a freelance motion designer.',
-      'about.p2': "Over the years, I've evolved into a versatile motion specialist operating at the intersection of storytelling and design.",
-      'about.p3': 'My work spans from narrative-driven animation where motion serves as a powerful communicative medium, to integrating dynamic elements into branding and product design systems.',
-      'about.p4': 'This journey has brought me into collaborative partnerships with design teams and product orgs, helping transform static identities into living experiences that resonate with users.',
+      'about.lead': "I'm Carlos Revaliente, a digital designer born in Spain.",
+      'about.p1': 'I started in motion design, but over the years I’ve moved towards a more strategic profile, combining product design, design systems and visual communication.',
+      'about.p2': 'I work at the intersection of narrative and functionality: from audiovisual pieces that explain and position brands, to integrating motion and visual consistency into digital products.',
+      'about.p3': 'I collaborate with design and development teams to turn ideas into clear, coherent and impactful experiences.',
+      'about.floatCta': 'Get to know me',
+      'about.cvButton': 'View CV',
+      'about.timeline.title': 'Timeline',
+      'about.timeline.present': 'present',
+      'about.timeline.item1.title': 'Freelance Motion Designer',
+      'about.timeline.item1.desc': 'Branding, storytelling and product design for various brands and studios.',
+      'about.timeline.item2.title': 'Animator / Motion Designer',
+      'about.timeline.item2.desc': 'Narrative animation and content for social and campaigns.',
+      'about.timeline.item3.title': 'Audiovisual Communication',
+      'about.timeline.item3.desc': 'Degree and first projects in motion and post-production.',
+      'about.timeline.item4.title': 'Design and animation training',
+      'about.timeline.item4.desc': 'Studies and practice in graphic design and After Effects.',
+      'cv.title': 'Resume',
+      'cv.sectionPersonal': 'Personal',
+      'cv.personal': 'Carlos Revaliente · Motion Designer · Spain',
+      'cv.sectionExperience': 'Experience',
+      'cv.exp1': '2022 – present · Freelance Motion Designer. Branding, storytelling and product design for brands and studios.',
+      'cv.exp2': '2020 – 2022 · Animator / Motion Designer. Narrative animation and content for social and campaigns.',
+      'cv.exp3': '2018 – 2020 · Audiovisual Communication. Degree and first projects in motion and post-production.',
+      'cv.sectionEducation': 'Education',
+      'cv.education': 'Degree in Audiovisual Communication. Training in graphic design and animation (After Effects).',
+      'cv.sectionSkills': 'Tools & skills',
+      'cv.skills': 'After Effects, Cinema 4D, Illustrator, Photoshop, Figma. 2D/3D animation, storytelling, motion branding, product design.',
+      'cv.sectionLanguages': 'Languages',
+      'cv.languages': 'Spanish (native), English (fluent).',
       'contact.intro': 'If you need a quote or just want to say hi.',
       'contact.labelName': 'Name',
       'contact.labelEmail': 'Email',
@@ -157,6 +205,7 @@
       if(!text) return;
       node.placeholder = text;
     });
+    window.dispatchEvent(new CustomEvent('translations-applied', { detail: { lang } }));
   }
 
   function setLanguage(lang){
@@ -247,6 +296,196 @@
       var body = (name ? 'Nombre: ' + name + '\n' : '') + (email ? 'Email: ' + email + '\n\n' : '') + message;
       var mailto = 'mailto:' + CONTACT_EMAIL + '?subject=' + encodeURIComponent(subject || 'Contacto desde web') + '&body=' + encodeURIComponent(body);
       window.location.href = mailto;
+    });
+  }
+
+  // About: botón flotante "Conóceme" — solo móvil; ocultar cuando el texto está visible
+  const aboutFloatCta = document.getElementById('about-float-cta');
+  const aboutContent = document.getElementById('about-content');
+  if (aboutFloatCta && aboutContent) {
+    const observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) aboutFloatCta.classList.add('is-hidden');
+        else aboutFloatCta.classList.remove('is-hidden');
+      });
+    }, { root: null, rootMargin: '0px', threshold: 0.2 });
+    observer.observe(aboutContent);
+    aboutFloatCta.addEventListener('click', function(e) {
+      e.preventDefault();
+      aboutContent.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  }
+
+  // About: timeline horizontal — mostrar solo el título del punto activo; auto-play desde fecha antigua a reciente
+  const timelineDisplayTitle = document.getElementById('timeline-display-title');
+  const timelinePoints = document.querySelectorAll('.timeline-item__point');
+  const timelineSection = document.querySelector('.about-timeline');
+  const timelineTrack = document.querySelector('.timeline-track');
+  const timelineCursor = document.querySelector('.timeline-cursor');
+  if (timelineDisplayTitle && timelinePoints.length) {
+    var timelineTitleTransitionMs = 280;
+    function updateCursorPosition(activePoint) {
+      if (!timelineCursor || !timelineTrack || !activePoint) return;
+      var tr = timelineTrack.getBoundingClientRect();
+      var br = activePoint.getBoundingClientRect();
+      var dateEl = activePoint.querySelector('.timeline-item__date');
+      var centerY;
+      if (dateEl) {
+        var dr = dateEl.getBoundingClientRect();
+        centerY = dr.top - tr.top + dr.height / 2;
+      } else {
+        centerY = br.top - tr.top + br.height / 2;
+      }
+      timelineCursor.style.top = centerY + 'px';
+    }
+    function setTimelineDisplay(activePoint, opts) {
+      opts = opts || {};
+      var skipTransition = opts.skipTransition;
+      var item = activePoint.closest('.timeline-item');
+      var titleEl = item && item.querySelector('.timeline-item__title');
+      var newText = titleEl ? titleEl.textContent : '';
+      var isChange = timelineDisplayTitle.textContent !== newText;
+      function applyState() {
+        if (titleEl) timelineDisplayTitle.textContent = titleEl.textContent;
+        timelineDisplayTitle.classList.remove('is-transitioning');
+        timelinePoints.forEach(function(btn) {
+          var isActive = btn === activePoint;
+          btn.classList.toggle('is-active', isActive);
+          btn.setAttribute('aria-selected', isActive);
+        });
+        updateCursorPosition(activePoint);
+      }
+      if (isChange && !skipTransition) {
+        timelineDisplayTitle.classList.add('is-transitioning');
+        setTimeout(function() {
+          if (titleEl) timelineDisplayTitle.textContent = titleEl.textContent;
+          timelinePoints.forEach(function(btn) {
+            var isActive = btn === activePoint;
+            btn.classList.toggle('is-active', isActive);
+            btn.setAttribute('aria-selected', isActive);
+          });
+          updateCursorPosition(activePoint);
+          requestAnimationFrame(function() {
+            timelineDisplayTitle.classList.remove('is-transitioning');
+          });
+        }, timelineTitleTransitionMs);
+      } else {
+        applyState();
+      }
+    }
+    setTimelineDisplay(document.querySelector('.timeline-item__point.is-active') || timelinePoints[timelinePoints.length - 1], { skipTransition: true });
+    if (timelineCursor && timelineTrack) {
+      window.addEventListener('resize', function() {
+        var active = document.querySelector('.timeline-item__point.is-active');
+        if (active) updateCursorPosition(active);
+      });
+    }
+    // Auto-play: de fecha más antigua (índice 3) a más reciente (índice 0); se repite a los 40 s
+    // Al hacer clic se detiene; 30 s después del último clic se reinicia el flujo
+    var TIMELINE_STEP_MS = 3200;
+    var TIMELINE_REPEAT_AFTER_MS = 40000;
+    var TIMELINE_IDLE_BEFORE_RESTART_MS = 30000;
+    var timelineAutoPlayDone = false;
+    var timelineInterval = null;
+    var timelineRepeatTimeout = null;
+    var timelineIdleTimeout = null;
+
+    function stopTimelineAutoPlay() {
+      if (timelineInterval) {
+        clearInterval(timelineInterval);
+        timelineInterval = null;
+      }
+      if (timelineRepeatTimeout) {
+        clearTimeout(timelineRepeatTimeout);
+        timelineRepeatTimeout = null;
+      }
+      timelineAutoPlayDone = true;
+    }
+
+    function runTimelineAutoPlay() {
+      if (timelineAutoPlayDone) return;
+      timelineAutoPlayDone = true;
+      if (timelineInterval) clearInterval(timelineInterval);
+      var stepIndex = 2;
+      timelineInterval = setInterval(function() {
+        if (stepIndex < 0) {
+          clearInterval(timelineInterval);
+          timelineInterval = null;
+          timelineRepeatTimeout = setTimeout(function() {
+            timelineRepeatTimeout = null;
+            setTimelineDisplay(timelinePoints[3], { skipTransition: true });
+            timelineAutoPlayDone = false;
+            runTimelineAutoPlay();
+          }, TIMELINE_REPEAT_AFTER_MS);
+          return;
+        }
+        setTimelineDisplay(timelinePoints[stepIndex]);
+        stepIndex--;
+      }, TIMELINE_STEP_MS);
+    }
+
+    function onTimelineUserClick(activePoint) {
+      stopTimelineAutoPlay();
+      if (timelineIdleTimeout) clearTimeout(timelineIdleTimeout);
+      setTimelineDisplay(activePoint);
+      timelineIdleTimeout = setTimeout(function() {
+        timelineIdleTimeout = null;
+        setTimelineDisplay(timelinePoints[3], { skipTransition: true });
+        timelineAutoPlayDone = false;
+        runTimelineAutoPlay();
+      }, TIMELINE_IDLE_BEFORE_RESTART_MS);
+    }
+
+    timelinePoints.forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        onTimelineUserClick(btn);
+      });
+    });
+    window.addEventListener('translations-applied', function() {
+      var active = document.querySelector('.timeline-item__point.is-active');
+      if (active) setTimelineDisplay(active, { skipTransition: true });
+    });
+
+    var reducedLayout = window.matchMedia('(max-width: 980px)');
+    if (reducedLayout.matches && timelineSection) {
+      var timelineObserver = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+          if (entry.isIntersecting) {
+            runTimelineAutoPlay();
+            if (timelineObserver) timelineObserver.disconnect();
+          }
+        });
+      }, { root: null, rootMargin: '0px', threshold: 0.25 });
+      timelineObserver.observe(timelineSection);
+    } else {
+      setTimeout(runTimelineAutoPlay, 500);
+    }
+  }
+
+  // About: modal CV
+  const cvBtn = document.getElementById('about-cv-btn');
+  const cvModal = document.getElementById('cv-modal');
+  const cvModalClose = document.getElementById('cv-modal-close');
+  if (cvBtn && cvModal) {
+    function openCvModal() {
+      cvModal.classList.add('is-open');
+      cvModal.setAttribute('aria-hidden', 'false');
+      if (cvBtn) cvBtn.setAttribute('aria-expanded', 'true');
+      document.body.style.overflow = 'hidden';
+      if (cvModalClose) cvModalClose.focus();
+    }
+    function closeCvModal() {
+      cvModal.classList.remove('is-open');
+      cvModal.setAttribute('aria-hidden', 'true');
+      if (cvBtn) cvBtn.setAttribute('aria-expanded', 'false');
+      document.body.style.overflow = '';
+      cvBtn.focus();
+    }
+    cvBtn.addEventListener('click', openCvModal);
+    if (cvModalClose) cvModalClose.addEventListener('click', closeCvModal);
+    cvModal.querySelector('.cv-modal__backdrop').addEventListener('click', closeCvModal);
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape' && cvModal.classList.contains('is-open')) closeCvModal();
     });
   }
 
