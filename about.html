@@ -1,6 +1,5 @@
-
 <!doctype html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -9,27 +8,16 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
-  <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
 
 <header class="nav">
   <div class="container">
-    <a href="index.html" class="logo" aria-label="Ir a inicio"><img src="revalotti-logo.svg" alt="" /></a>
-    <div class="lang-float-wrap">
-      <div class="lang-switch" aria-label="Seleccionar idioma">
-      <button type="button" class="lang-switch__btn is-active" data-lang="es" aria-pressed="true">ES</button>
-      <button type="button" class="lang-switch__btn" data-lang="en" aria-pressed="false">EN</button>
-      </div>
-    </div>
-    <button class="nav-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="main-nav">
-      <i data-lucide="menu"></i>
-    </button>
-    <nav id="main-nav" aria-label="Main">
+    <nav aria-label="Main">
       <ul>
-        <li><a class="" href="index.html" data-i18n-key="nav.home">Inicio</a></li>
-        <li><a class="active" href="about.html" data-i18n-key="nav.about">Sobre mí</a></li>
-        <li><a class="" href="contact.html" data-i18n-key="nav.contact">Contacto</a></li>
+        <li><a class="" href="index.html">Home</a></li>
+        <li><a class="active" href="about.html">About</a></li>
+        <li><a class="" href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </div>
@@ -37,34 +25,42 @@
 
 <main class="page">
   <div class="container">
-    <section class="about-hero">
-      <h1><span data-i18n-key="about.title">¡Hola!</span> <span class="emoji">👋</span></h1>
-    </section>
+    <h1>Hello! <span class="emoji">👋</span></h1>
+    <p class="subtitle">My name is Revaliente.<br/>I am a motion designer and director from Spain.</p>
 
-    <div class="about-layout">
-      <div class="about-col about-col--photo">
-        <div class="about-photo" aria-label="Profile photo">
-          <img src="assets/foto-perfil.png" alt="Foto de Carlos Revaliente" />
-        </div>
+    <div class="two-col">
+      <div class="paragraph">
+        <p>
+          Born in a small town in southern Spain, I spent my childhood building Lego spaceships and
+          dreaming of unearthing dinosaurs. Life charted a different course: after graduating with a
+          degree in Audio–Visual Communications, I launched my career as a freelance motion designer.
+        </p>
+        <p>
+          Over the years, I've evolved into a versatile motion specialist operating at the intersection
+          of storytelling and design.
+        </p>
       </div>
 
-      <div class="about-col paragraph about-col--text1">
-        <p class="about-lead" data-i18n-key="about.lead">Mi nombre es Carlos Revaliente. Soy un motion designer español.</p>
-        <p data-i18n-key="about.p1">
-          Nací en un pueblo del sur de España y pasé la infancia construyendo naves espaciales de Lego y soñando con desenterrar dinosaurios. La vida me llevó por otro camino: después de licenciarme en Comunicación Audiovisual, empecé mi carrera como motion designer freelance.
+      <div class="paragraph">
+        <p>
+          My work spans from narrative-driven animation where motion serves as a powerful communicative medium,
+          to integrating dynamic elements into branding and product design systems.
+        </p>
+        <p>
+          This journey has brought me into collaborative partnerships with design teams and product orgs,
+          helping transform static identities into living experiences that resonate with users.
         </p>
       </div>
+    </div>
 
-      <div class="about-col paragraph about-col--text2">
-        <p data-i18n-key="about.p2">
-          Con los años he ido evolucionando hacia un perfil versátil en motion, a medio camino entre el storytelling y el diseño.
-        </p>
-        <p data-i18n-key="about.p3">
-          Mi trabajo abarca desde animación narrativa, donde el motion es un medio de comunicación potente, hasta la integración de elementos dinámicos en sistemas de branding y diseño de producto.
-        </p>
-        <p data-i18n-key="about.p4">
-          Este camino me ha llevado a colaborar con equipos de diseño y departamentos de producto, ayudando a convertir identidades estáticas en experiencias vivas que conecten con los usuarios.
-        </p>
+    <div class="list-block">
+      <div class="label">Speech and Workshops</div>
+      <div class="timeline" aria-label="Timeline list">
+        <div class="row"><div class="when">2026 Feb / Madrid (Spain)</div><div class="what">Guest lecture – Motion in Product Systems</div></div>
+        <div class="row"><div class="when">2025 Oct / Barcelona (Spain)</div><div class="what">Workshop – Character animation basics</div></div>
+        <div class="row"><div class="when">2025 Jun / Valencia (Spain)</div><div class="what">Talk – Storytelling through motion</div></div>
+        <div class="row"><div class="when">2024 Nov / Seville (Spain)</div><div class="what">Speaker – Design systems for motion assets</div></div>
+        <div class="row"><div class="when">2023 Apr / Online</div><div class="what">Webinar – Efficient workflows in After Effects</div></div>
       </div>
     </div>
   </div>
