@@ -1,5 +1,6 @@
+
 <!doctype html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -8,16 +9,27 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
+  <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
 
 <header class="nav">
   <div class="container">
-    <nav aria-label="Main">
+    <a href="index.html" class="logo" aria-label="Ir a inicio"><img src="revalotti-logo.svg" alt="" /></a>
+    <div class="lang-float-wrap">
+      <div class="lang-switch" aria-label="Seleccionar idioma">
+      <button type="button" class="lang-switch__btn is-active" data-lang="es" aria-pressed="true">ES</button>
+      <button type="button" class="lang-switch__btn" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+    </div>
+    <button class="nav-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="main-nav">
+      <i data-lucide="menu"></i>
+    </button>
+    <nav id="main-nav" aria-label="Main">
       <ul>
-        <li><a class="" href="index.html">Home</a></li>
-        <li><a class="active" href="about.html">About</a></li>
-        <li><a class="" href="contact.html">Contact</a></li>
+        <li><a class="" href="index.html" data-i18n-key="nav.home">Inicio</a></li>
+        <li><a class="active" href="about.html" data-i18n-key="nav.about">Sobre mí</a></li>
+        <li><a class="" href="contact.html" data-i18n-key="nav.contact">Contacto</a></li>
       </ul>
     </nav>
   </div>
@@ -25,46 +37,122 @@
 
 <main class="page">
   <div class="container">
-    <h1>Hello! <span class="emoji">👋</span></h1>
-    <p class="subtitle">My name is Revaliente.<br/>I am a motion designer and director from Spain.</p>
+    <section class="about-hero">
+      <h1><span data-i18n-key="about.title">¡Hola!</span> <span class="emoji emoji--wave" aria-hidden="true">👋</span></h1>
+    </section>
 
-    <div class="two-col">
-      <div class="paragraph">
-        <p>
-          Born in a small town in southern Spain, I spent my childhood building Lego spaceships and
-          dreaming of unearthing dinosaurs. Life charted a different course: after graduating with a
-          degree in Audio–Visual Communications, I launched my career as a freelance motion designer.
+    <div class="about-layout">
+      <div class="about-col about-col--photo">
+        <div class="about-photo" aria-label="Profile photo">
+          <img src="assets/profile.png" alt="Retrato de Carlos Revaliente" />
+        </div>
+      </div>
+
+      <div class="about-col paragraph about-col--text" id="about-content">
+        <p class="about-lead"><strong data-i18n-key="about.lead">Mi nombre es Carlos Revaliente, diseñador digital nacido en España.</strong></p>
+        <p data-i18n-key="about.p1">
+          Empecé en el mundo del motion design, pero con los años he evolucionado hacia un perfil más estratégico, combinando diseño de producto, sistemas de diseño y comunicación visual.
         </p>
-        <p>
-          Over the years, I've evolved into a versatile motion specialist operating at the intersection
-          of storytelling and design.
+        <p data-i18n-key="about.p2">
+          Trabajo en la intersección entre narrativa y funcionalidad: desde piezas audiovisuales que explican y posicionan marcas, hasta la integración de motion y consistencia visual en productos digitales.
+        </p>
+        <p data-i18n-key="about.p3">
+          Colaboro con equipos de diseño y desarrollo para transformar ideas en experiencias claras, coherentes y con impacto.
         </p>
       </div>
 
-      <div class="paragraph">
-        <p>
-          My work spans from narrative-driven animation where motion serves as a powerful communicative medium,
-          to integrating dynamic elements into branding and product design systems.
-        </p>
-        <p>
-          This journey has brought me into collaborative partnerships with design teams and product orgs,
-          helping transform static identities into living experiences that resonate with users.
-        </p>
-      </div>
-    </div>
-
-    <div class="list-block">
-      <div class="label">Speech and Workshops</div>
-      <div class="timeline" aria-label="Timeline list">
-        <div class="row"><div class="when">2026 Feb / Madrid (Spain)</div><div class="what">Guest lecture – Motion in Product Systems</div></div>
-        <div class="row"><div class="when">2025 Oct / Barcelona (Spain)</div><div class="what">Workshop – Character animation basics</div></div>
-        <div class="row"><div class="when">2025 Jun / Valencia (Spain)</div><div class="what">Talk – Storytelling through motion</div></div>
-        <div class="row"><div class="when">2024 Nov / Seville (Spain)</div><div class="what">Speaker – Design systems for motion assets</div></div>
-        <div class="row"><div class="when">2023 Apr / Online</div><div class="what">Webinar – Efficient workflows in After Effects</div></div>
-      </div>
+      <section class="about-col about-timeline about-col--timeline">
+        <div class="about-timeline__card">
+          <div class="timeline-display" aria-live="polite">
+            <p id="timeline-display-title" class="timeline-display__title">Formación en diseño y animación</p>
+          </div>
+          <div class="timeline-track" role="tablist" aria-label="Puntos de la trayectoria">
+            <span class="timeline-cursor" aria-hidden="true"></span>
+            <ol class="timeline">
+            <li class="timeline-item">
+              <button type="button" class="timeline-item__point" role="tab" aria-selected="false" aria-controls="timeline-display-title" data-index="0">
+                <span class="timeline-item__date">2022 – <span data-i18n-key="about.timeline.present">presente</span></span>
+              </button>
+              <div class="timeline-item__content is-visually-hidden" aria-hidden="true">
+                <strong class="timeline-item__title" data-i18n-key="about.timeline.item1.title">Motion Designer Freelance</strong>
+                <p class="timeline-item__desc" data-i18n-key="about.timeline.item1.desc">Branding, storytelling y diseño de producto para distintas marcas y estudios.</p>
+              </div>
+            </li>
+            <li class="timeline-item">
+              <button type="button" class="timeline-item__point" role="tab" aria-selected="false" aria-controls="timeline-display-title" data-index="1">
+                <span class="timeline-item__date">2020 – 2022</span>
+              </button>
+              <div class="timeline-item__content is-visually-hidden" aria-hidden="true">
+                <strong class="timeline-item__title" data-i18n-key="about.timeline.item2.title">Animador / Motion Designer</strong>
+                <p class="timeline-item__desc" data-i18n-key="about.timeline.item2.desc">Animación narrativa y contenido para redes y campañas.</p>
+              </div>
+            </li>
+            <li class="timeline-item">
+              <button type="button" class="timeline-item__point" role="tab" aria-selected="false" aria-controls="timeline-display-title" data-index="2">
+                <span class="timeline-item__date">2018 – 2020</span>
+              </button>
+              <div class="timeline-item__content is-visually-hidden" aria-hidden="true">
+                <strong class="timeline-item__title" data-i18n-key="about.timeline.item3.title">Comunicación Audiovisual</strong>
+                <p class="timeline-item__desc" data-i18n-key="about.timeline.item3.desc">Licenciatura y primeros proyectos en motion y postproducción.</p>
+              </div>
+            </li>
+            <li class="timeline-item">
+              <button type="button" class="timeline-item__point is-active" role="tab" aria-selected="true" aria-controls="timeline-display-title" data-index="3">
+                <span class="timeline-item__date">2015 – 2018</span>
+              </button>
+              <div class="timeline-item__content is-visually-hidden" aria-hidden="true">
+                <strong class="timeline-item__title" data-i18n-key="about.timeline.item4.title">Formación en diseño y animación</strong>
+                <p class="timeline-item__desc" data-i18n-key="about.timeline.item4.desc">Estudios y prácticas en diseño gráfico y After Effects.</p>
+              </div>
+            </li>
+          </ol>
+          </div>
+        </div>
+      </section>
     </div>
   </div>
+
+  <section class="cta">
+    <div class="container">
+      <button type="button" class="pill about-cv-btn" id="about-cv-btn" data-i18n-key="about.cvButton" aria-haspopup="dialog" aria-expanded="false">Ver CV</button>
+    </div>
+  </section>
 </main>
+
+<a href="#about-content" class="about-float-cta" id="about-float-cta" data-i18n-key="about.floatCta">Conóceme</a>
+
+<div id="cv-modal" class="cv-modal" role="dialog" aria-modal="true" aria-labelledby="cv-modal-title" aria-hidden="true">
+  <div class="cv-modal__backdrop"></div>
+  <div class="cv-modal__panel">
+    <button type="button" class="cv-modal__close" id="cv-modal-close" aria-label="Cerrar">×</button>
+    <h2 id="cv-modal-title" class="cv-modal__title" data-i18n-key="cv.title">Currículum</h2>
+    <div class="cv-modal__body">
+      <section class="cv-section">
+        <h3 class="cv-section__title" data-i18n-key="cv.sectionPersonal">Datos personales</h3>
+        <p class="cv-section__text" data-i18n-key="cv.personal">Carlos Revaliente · Motion Designer · España</p>
+        <p class="cv-section__text"><a href="mailto:hello@revaliente.studio">hello@revaliente.studio</a></p>
+      </section>
+      <section class="cv-section">
+        <h3 class="cv-section__title" data-i18n-key="cv.sectionExperience">Experiencia</h3>
+        <p class="cv-section__text" data-i18n-key="cv.exp1">2022 – presente · Motion Designer Freelance. Branding, storytelling y diseño de producto para marcas y estudios.</p>
+        <p class="cv-section__text" data-i18n-key="cv.exp2">2020 – 2022 · Animador / Motion Designer. Animación narrativa y contenido para redes y campañas.</p>
+        <p class="cv-section__text" data-i18n-key="cv.exp3">2018 – 2020 · Comunicación Audiovisual. Licenciatura y primeros proyectos en motion y postproducción.</p>
+      </section>
+      <section class="cv-section">
+        <h3 class="cv-section__title" data-i18n-key="cv.sectionEducation">Formación</h3>
+        <p class="cv-section__text" data-i18n-key="cv.education">Licenciatura en Comunicación Audiovisual. Formación en diseño gráfico y animación (After Effects).</p>
+      </section>
+      <section class="cv-section">
+        <h3 class="cv-section__title" data-i18n-key="cv.sectionSkills">Herramientas y habilidades</h3>
+        <p class="cv-section__text" data-i18n-key="cv.skills">After Effects, Cinema 4D, Illustrator, Photoshop, Figma. Animación 2D/3D, storytelling, branding en motion, diseño de producto.</p>
+      </section>
+      <section class="cv-section">
+        <h3 class="cv-section__title" data-i18n-key="cv.sectionLanguages">Idiomas</h3>
+        <p class="cv-section__text" data-i18n-key="cv.languages">Español (nativo), Inglés (fluido).</p>
+      </section>
+    </div>
+  </div>
+</div>
 
 <footer>
   <div class="footer-time">
