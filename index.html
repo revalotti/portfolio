@@ -1,6 +1,5 @@
-
 <!doctype html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -9,27 +8,16 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
-  <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
 
 <header class="nav">
   <div class="container">
-    <a href="index.html" class="logo" aria-label="Ir a inicio"><img src="revalotti-logo.svg" alt="" /></a>
-    <div class="lang-float-wrap">
-      <div class="lang-switch" aria-label="Seleccionar idioma">
-        <button type="button" class="lang-switch__btn is-active" data-lang="es" aria-pressed="true">ES</button>
-        <button type="button" class="lang-switch__btn" data-lang="en" aria-pressed="false">EN</button>
-      </div>
-    </div>
-    <button class="nav-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="main-nav">
-      <i data-lucide="menu"></i>
-    </button>
-    <nav id="main-nav" aria-label="Main">
+    <nav aria-label="Main">
       <ul>
-        <li><a class="active" href="index.html" data-i18n-key="nav.home">Inicio</a></li>
-        <li><a class="" href="about.html" data-i18n-key="nav.about">Sobre mí</a></li>
-        <li><a class="" href="contact.html" data-i18n-key="nav.contact">Contacto</a></li>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a class="" href="about.html">About</a></li>
+        <li><a class="" href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </div>
@@ -39,179 +27,141 @@
   <section class="hero">
     <div class="container">
       <h1>
-        <span class="hero-title-main" data-i18n-key="hero.title.before">Soy </span><a href="about.html" class="hero-name-link">Carlos Revaliente</a><span class="hero-title-main" data-i18n-key="hero.title.after">, un motion designer especializado en</span>
-        <span class="muted" data-i18n-key="hero.title.highlight">
-          branding, UX-UI y storytelling.
-        </span>
+        I'm Revaliente—a motion designer and animation director with a focus on
+        <span class="muted">branding</span>, UX–UI, and storytelling.
       </h1>
+      <a class="pill" href="#portfolio">PORTFOLIO</a>
     </div>
   </section>
 
   <section id="portfolio" class="container">
-    <div class="portfolio-section-title-wrap">
-      <h2 class="portfolio-section-title">
-        <a href="#portfolio" id="portfolio-grid-link" class="portfolio-section-title__link" data-i18n-key="hero.cta">Explora mi trabajo</a>
-      </h2>
-    </div>
-    <div id="portfolio-grid" class="masonry home-grid" aria-label="Portfolio grid">
-
+    <div class="masonry" aria-label="Portfolio grid">
       <a class="card" href="project-notion-ai-assistant.html" aria-label="Notion AI Assistant">
         <div class="thumb cream wide"></div>
-        <div class="overlay" aria-hidden="true"><div class="overlay-title">Notion AI Assistant</div></div>
-        <span class="sr-only">Notion AI Assistant</span>
         <div class="meta">
           <div class="name">Notion AI Assistant</div>
-          <div class="sub" data-i18n-key="portfolio.notion.subtitle">Caracterización y animación para un asistente de producto</div>
+          <div class="sub">Characterization and animation for a product assistant</div>
         </div>
       </a>
 
       <a class="card" href="project-sample.html" aria-label="Blue Face Study">
         <div class="thumb blue short"></div>
-        <div class="overlay" aria-hidden="true"><div class="overlay-title">Blue Face Study</div></div>
-        <span class="sr-only">Blue Face Study</span>
         <div class="meta">
           <div class="name">Blue Face Study</div>
-          <div class="sub" data-i18n-key="portfolio.blueFace.subtitle">Exploración simple de personaje</div>
+          <div class="sub">Simple character exploration</div>
         </div>
       </a>
 
       <a class="card" href="project-sample.html" aria-label="Editorial Poster">
-        <div class="thumb coral tall"></div>
-        <div class="overlay" aria-hidden="true"><div class="overlay-title">Editorial Poster</div></div>
-        <span class="sr-only">Editorial Poster</span>
+        <div class="thumb gray tall"></div>
         <div class="meta">
           <div class="name">Editorial Poster</div>
-          <div class="sub" data-i18n-key="portfolio.editorialPoster.subtitle">Tipografía y composición</div>
+          <div class="sub">Typography and composition</div>
         </div>
       </a>
 
       <a class="card" href="project-sample.html" aria-label="Line Illustration">
-        <div class="thumb teal wide"></div>
-        <div class="overlay" aria-hidden="true"><div class="overlay-title">Line Illustration</div></div>
-        <span class="sr-only">Line Illustration</span>
+        <div class="thumb gray wide"></div>
         <div class="meta">
           <div class="name">Line Illustration</div>
-          <div class="sub" data-i18n-key="portfolio.lineIllustration.subtitle">Trabajo de línea minimalista</div>
+          <div class="sub">Minimal line work</div>
         </div>
       </a>
 
       <a class="card" href="project-sample.html" aria-label="Black Mascot">
         <div class="thumb black short"></div>
-        <div class="overlay" aria-hidden="true"><div class="overlay-title">Black Mascot</div></div>
-        <span class="sr-only">Black Mascot</span>
         <div class="meta">
           <div class="name">Black Mascot</div>
-          <div class="sub" data-i18n-key="portfolio.blackMascot.subtitle">Frame icónico de animación</div>
+          <div class="sub">Iconic animation frame</div>
         </div>
       </a>
 
       <a class="card" href="project-sample.html" aria-label="Green UI Concept">
         <div class="thumb green tall"></div>
-        <div class="overlay" aria-hidden="true"><div class="overlay-title">Green UI Concept</div></div>
-        <span class="sr-only">Green UI Concept</span>
         <div class="meta">
           <div class="name">Green UI Concept</div>
-          <div class="sub" data-i18n-key="portfolio.greenUi.subtitle">Mockup de producto</div>
+          <div class="sub">Product mockup</div>
         </div>
       </a>
 
       <a class="card" href="project-sample.html" aria-label="Blue Character">
         <div class="thumb blue wide"></div>
-        <div class="overlay" aria-hidden="true"><div class="overlay-title">Blue Character</div></div>
-        <span class="sr-only">Blue Character</span>
         <div class="meta">
           <div class="name">Blue Character</div>
-          <div class="sub" data-i18n-key="portfolio.blueCharacter.subtitle">Ilustración para secuencia de marca</div>
+          <div class="sub">Illustration for brand sequence</div>
         </div>
       </a>
 
       <a class="card" href="project-sample.html" aria-label="Watch Dial">
         <div class="thumb cream short"></div>
-        <div class="overlay" aria-hidden="true"><div class="overlay-title">Watch Dial</div></div>
-        <span class="sr-only">Watch Dial</span>
         <div class="meta">
           <div class="name">Watch Dial</div>
-          <div class="sub" data-i18n-key="portfolio.watchDial.subtitle">Ilustración de producto</div>
+          <div class="sub">Product illustration</div>
         </div>
       </a>
 
       <a class="card" href="project-sample.html" aria-label="Yellow Bottle">
         <div class="thumb yellow short"></div>
-        <div class="overlay" aria-hidden="true"><div class="overlay-title">Yellow Bottle</div></div>
-        <span class="sr-only">Yellow Bottle</span>
         <div class="meta">
           <div class="name">Yellow Bottle</div>
-          <div class="sub" data-i18n-key="portfolio.yellowBottle.subtitle">Estudio de ilustración plana</div>
+          <div class="sub">Flat illustration study</div>
         </div>
       </a>
 
       <a class="card" href="project-sample.html" aria-label="Blue Book">
         <div class="thumb blue short"></div>
-        <div class="overlay" aria-hidden="true"><div class="overlay-title">Blue Book</div></div>
-        <span class="sr-only">Blue Book</span>
         <div class="meta">
           <div class="name">Blue Book</div>
-          <div class="sub" data-i18n-key="portfolio.blueBook.subtitle">Exploración de conjunto de iconos</div>
+          <div class="sub">Icon set exploration</div>
         </div>
       </a>
 
       <a class="card" href="project-sample.html" aria-label="Orange Eyes">
         <div class="thumb orange short"></div>
-        <div class="overlay" aria-hidden="true"><div class="overlay-title">Orange Eyes</div></div>
-        <span class="sr-only">Orange Eyes</span>
         <div class="meta">
           <div class="name">Orange Eyes</div>
-          <div class="sub" data-i18n-key="portfolio.orangeEyes.subtitle">Diseño de personaje</div>
+          <div class="sub">Character design</div>
         </div>
       </a>
 
       <a class="card" href="project-sample.html" aria-label="Pink Character">
-        <div class="thumb violet wide"></div>
-        <div class="overlay" aria-hidden="true"><div class="overlay-title">Pink Character</div></div>
-        <span class="sr-only">Pink Character</span>
+        <div class="thumb pink wide"></div>
         <div class="meta">
           <div class="name">Pink Character</div>
-          <div class="sub" data-i18n-key="portfolio.pinkCharacter.subtitle">Test de ilustración y motion</div>
+          <div class="sub">Illustration and motion test</div>
         </div>
       </a>
 
       <a class="card" href="project-sample.html" aria-label="Dark Jelly">
         <div class="thumb black wide"></div>
-        <div class="overlay" aria-hidden="true"><div class="overlay-title">Dark Jelly</div></div>
-        <span class="sr-only">Dark Jelly</span>
         <div class="meta">
           <div class="name">Dark Jelly</div>
-          <div class="sub" data-i18n-key="portfolio.darkJelly.subtitle">Frame híbrido 3D + 2D</div>
+          <div class="sub">3D + 2D hybrid frame</div>
         </div>
       </a>
 
       <a class="card" href="project-sample.html" aria-label="Play Button">
         <div class="thumb orange short"></div>
-        <div class="overlay" aria-hidden="true"><div class="overlay-title">Play Button</div></div>
-        <span class="sr-only">Play Button</span>
         <div class="meta">
           <div class="name">Play Button</div>
-          <div class="sub" data-i18n-key="portfolio.playButton.subtitle">Referencia de identidad en motion</div>
+          <div class="sub">Motion identity reference</div>
         </div>
       </a>
 
       <a class="card" href="project-sample.html" aria-label="Desk Character">
         <div class="thumb cream wide"></div>
-        <div class="overlay" aria-hidden="true"><div class="overlay-title">Desk Character</div></div>
-        <span class="sr-only">Desk Character</span>
         <div class="meta">
           <div class="name">Desk Character</div>
-          <div class="sub" data-i18n-key="portfolio.deskCharacter.subtitle">Ilustración de escena</div>
+          <div class="sub">Scene illustration</div>
         </div>
       </a>
-
     </div>
   </section>
 
   <section class="cta">
     <div class="container">
-      <h2 data-i18n-key="cta.title">Llevemos tus ideas a la vida.</h2>
-      <a class="pill" href="contact.html" data-i18n-key="cta.button">CONTACTO</a>
+      <h2>Let's bring your ideas to life .</h2>
+      <a class="pill" href="contact.html">GET IN TOUCH</a>
     </div>
   </section>
 </main>
